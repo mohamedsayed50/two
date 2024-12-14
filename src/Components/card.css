@@ -1,0 +1,51 @@
+.card {
+    height: 100%;
+    margin-top: 80px;
+    box-shadow: #0000003b 0px 0px 12px;
+    position: relative;
+}
+.card img {
+    width: 100%;
+}
+nav .navbar-brand {
+    color: blue !important;
+    font-size: 30px;
+    font-weight: 900px;
+}
+nav .nav-item .nav-link:hover{
+     border-bottom: 2px solid blue;
+     color: blue;
+}
+nav {
+    box-shadow: #0000003b 0px 0px 12px;
+    position: fixed !important;
+    z-index: 2;
+    width: 100%;
+    padding: 15px !important;
+}
+.card .card-body {
+    background-color: black;
+    color: white;
+    
+    border-radius: 5px;
+} 
+.card .card-body:hover{
+    background-color: white;
+    color: black;
+}
+.icon {
+    display: flex;
+    margin-top: 10px;
+}
+h5 {
+    margin-left: 5px;
+}
+.i {
+    position: absolute !important;
+    top: 30px !important;
+    right: 0;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+    
